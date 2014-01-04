@@ -1,3 +1,10 @@
+"
+" note.vim
+"
+"  Author: Ellen Gummesson
+" License: Vim
+"
+
 if exists('g:loaded_notes_plugin') || &cp
   finish
 endif

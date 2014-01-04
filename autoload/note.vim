@@ -1,3 +1,10 @@
+"
+" note.vim
+"
+"  Author: Ellen Gummesson
+" License: Vim
+"
+
 function! note#List(pattern)
   if strlen(a:pattern) == 0
     silent! execute 'Sexplore '.g:notes_directory
